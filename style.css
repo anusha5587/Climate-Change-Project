@@ -1,5 +1,9 @@
 body {
-  background: #7fda89;
+  background: linear-gradient(
+    179.1deg,
+    rgb(43, 170, 96) 2.3%,
+    rgb(129, 204, 104) 98.3%
+  );
 }
 h1 {
   text-align: center;
