@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Climate Change</title>
+    <style>
+      body {
+        background: #7fda89;
+      }
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+      }
+      p {
+        font-size: 12px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        line-height: 1.5;
+      }
+      .climateChange {
+        max-width: 600px;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px auto;
+      }
+      button {
+        display: block;
+        text-decoration: none;
+        color: #085f63;
+        margin: 0 auto;
+        background: #a3de83;
+        font-size: 15px;
+        padding: 10px 15px;
+        border: none;
+        border-color: #a1dd70;
+        border-style: double;
+        border-radius: 4px;
+        box-shadow: 5px 5px 10px rgba(23, 145, 33, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        cursor: pointer;
+        background: #2eb872;
+        color: azure;
+      }
+      footer {
+        text-align: center;
+        font-size: 11px;
+        font-style: italic;
+        line-height: 2.5;
+      }
+      .theme-button {
+        font-size: 12px;
+        background-color: black;
+        color: #2eb872;
+        padding: 5px 8px;
+      }
+      .theme-button:hover {
+        background: whitesmoke;
+        color: black;
+        cursor: pointer;
+      }
+      .linkUN a {
+        text-decoration: none;
+        color: #085f63;
+      }
+      .linkUN a:hover {
+        cursor: pointer;
+        color: whitesmoke;
+        text-decoration: underline;
+      }
+      .climate-main-picture {
+        border-radius: 15px;
+        transition: all 500ms ease-in-out;
+        width: 100%;
+        margin: 0 auto;
+      }
+      .climate-main-picture:hover {
+        filter: contrast(50%);
+        transform: scale(1.2);
+      }
+      .climate-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+      }
+      .climate-grid img {
+        width: 100%;
+        border-radius: 10px;
+        transition: all 500ms ease-in-out;
+      }
+      .climate-grid img:hover {
+        transform: scale(1.5);
+      }
+      .climate {
+        background: linear-gradient(
+          114.3deg,
+          rgb(19, 126, 57) 0.2%,
+          rgb(8, 65, 91) 68.5%
+        );
+        color: whitesmoke;
+      }
+      .climate .climateChange {
+        background: #259073;
+      }
+
+      .climate a {
+        color: #041122;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme-button">Change Theme</button>
+    <div class="climateChange">
+      <h1>Climate Change</h1>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/727/original/dry_land.png?1685381229"
+        alt=""
+        class="climate-main-picture"
+      />
+
+      <h2>What is Climate Change?</h2>
+      <p>
+        <strong>Climate Change</strong> <em>refers</em> to a long-term shift in
+        the planet's weather patterns and average temperatures. Global
+        temperatures rose about 1.98°F (1.1°C) from 1901 to 2020, but climate
+        change refers to more than an increase in temperature. It also includes
+        sea level rise, changes in weather patterns like drought and flooding,
+        and much more. Things that we depend upon and value — water, energy,
+        transportation, wildlife, agriculture, ecosystems, and human health —
+        are experiencing the effects of a changing climate. We now know that
+        man-made climate change is real and that it poses a great threat to the
+        planet and its inhabitants. Current data suggest that we need to reduce
+        greenhouse-gas emissions in developed countries by at least 80% by 2050
+        in order to have a chance of staying below an average temperature rise
+        of over 2ºC.
+      </p>
+      <h2>Causes of Climate Change</h2>
+      <div class="climate-grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/734/original/dry_land_2_%285%29.png?1685382768"
+          alt=""
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/731/original/dry_land_2_%282%29.png?1685381822"
+          alt=""
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/732/original/dry_land_2_%283%29.png?1685381849"
+          alt=""
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/741/original/dry_land_2_%286%29.png?1685387502"
+          alt=""
+        />
+      </div>
+      <p>
+        The climate on Earth has been changing since it was formed which is 4.5
+        billion years ago. Till now, natural factors have been the cause of
+        these changes which include volcanic eruptions, earthquakes, shifts in
+        the earth's crust, etc. Scientists now agree that humans cause climate
+        change. Many of us think climate change mainly means warmer
+        temperatures, however, this is just the beginning of the story. Because
+        the Earth is a system, where everything is connected, changes in one
+        area can influence changes in all others. The consequences of climate
+        change now include, among others, intense droughts, water scarcity,
+        severe fires, rising sea levels, flooding, melting polar ice,
+        catastrophic storms, and declining biodiversity.
+      </p>
+
+      <button class="linkUN">
+        <a
+          href="https://www.un.org/en/climatechange/what-is-climate-change"
+          ,
+          target="_blank"
+          >Visit UN website</a
+        >
+      </button>
+    </div>
+    <footer>Coded by Anoosha Anand</footer>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+        body.classList.toggle("climate");
+      }
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
